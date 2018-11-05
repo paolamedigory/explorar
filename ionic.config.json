@@ -1,0 +1,7 @@
+{
+  "name": "explorar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

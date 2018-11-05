@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Rodrigo",
+      "age": "24",
+      "image": "images/pizza.jpg",
+      "location": "Dublin, Ireland",
+      "interest": "Estudiante caav",
+      "lenguages": [
+          {
+            "id": 0,
+            "name": "Spanish",
+            "progress": "80",
+            "level": "Elementary",
+          },
+          {
+            "id": 1,
+            "name": "English",
+            "progress": "60",
+            "level": "Elementary",
+          }
+      ],
+
+      "username": "rodri",
+      "premium": true
+    }
+  ]
+}
+
+}
+
+
