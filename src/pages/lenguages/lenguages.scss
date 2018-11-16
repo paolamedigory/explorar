@@ -1,12 +1,12 @@
 page-lenguages {
     .selector {
         font-family:  Helvetica;
-        font-size: 20px;
-        line-height: 2;
+        font-size: 25px;
+        line-height: 4;
         letter-spacing: 0.1px;
         color: #29235e;
-        width: 50% !important;
-        max-width: 50% !important;
+        width: 75% !important;
+        max-width: 75% !important;
         justify-content: center;
         border: solid 4px #e8ebf0;
         background-color: #ffffff;
@@ -15,13 +15,13 @@ page-lenguages {
 
     .leng {
         font-family: helvetica;
+        padding: 10px;
         font-size: 30px;
-        line-height: 1.2;
+        line-height: 1.0;
         letter-spacing: 0.1px;
         color: #0a0a0a;
         width: 70% !important;
         max-width: 50% !important;
-        justify-content: center;
         background-color: #ffffff;
         text-align: center;
     }
