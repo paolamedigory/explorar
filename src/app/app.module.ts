@@ -4,13 +4,14 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { LenguagesPage } from'../pages/lenguages/lenguages';
 import { LevelPage }  from'../pages/level/level';
+import { CoursePage } from'../pages/course/course';
 import { ProgressPage } from'../pages/progress/progress';
 import { PremiumPage }  from'../pages/premium/premium';
 import { LoginPage } from'../pages/login/login';
-import { CoursePage } from'../pages/course/course';
+import { ListPage }  from'../pages/list/list';
+
 
 
 
@@ -18,17 +19,19 @@ import { CoursePage } from'../pages/course/course';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     LenguagesPage,
     LevelPage,
+    CoursePage ,
     ProgressPage,
     PremiumPage,
     LoginPage,
-    CoursePage ,
+    ListPage,
+
 
   ],
   imports: [
@@ -39,13 +42,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
     LenguagesPage,
     LevelPage,
+    CoursePage,
     ProgressPage,
     PremiumPage,
     LoginPage,
-    CoursePage,
+    ListPage,
+  
 
   ],
   providers: [
