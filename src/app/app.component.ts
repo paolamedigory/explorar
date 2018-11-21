@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 // PAGINAS QUE QUIERO QUE APAREZCAN EN MI MENU 
 
+import { LoginPage } from'../pages/login/login';
 import { HomePage } from '../pages/home/home';
 import { LenguagesPage } from'../pages/lenguages/lenguages';
 import { LevelPage }  from'../pages/level/level';
@@ -13,6 +14,7 @@ import { ProgressPage } from'../pages/progress/progress';
 import { PremiumPage }  from'../pages/premium/premium';
 import { ListPage }  from'../pages/list/list';
 
+ 
 
 @Component({
   templateUrl: 'app.html'
@@ -20,7 +22,7 @@ import { ListPage }  from'../pages/list/list';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = LoginPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -31,6 +33,7 @@ export class MyApp {
     //  aqui poner las paginas que quiero que se reflejen en mi menu 
 
     this.pages = [
+      { title: 'Login', component: LoginPage},
       { title: 'Home', component: HomePage },
       { title: 'Lenguages', component: LenguagesPage},
       { title: 'Level', component: LevelPage},
@@ -38,6 +41,7 @@ export class MyApp {
       { title: 'Progress', component: ProgressPage},
       { title: 'Premium', component: PremiumPage},
       { title: 'List', component: ListPage},
+      
       
   
     ];
