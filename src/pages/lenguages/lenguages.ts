@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LevelPage } from '../level/level';
 
 
 
@@ -28,6 +29,9 @@ export class LenguagesPage {
     console.log('ionViewDidLoad LenguagesPage');
   }
 
+  openLevelPage(){
 
+    this.navCtrl.push(LevelPage);
+  }
  
 }

@@ -24,7 +24,7 @@ export class MyApp {
 
   rootPage: any = LoginPage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any, icon: string}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
@@ -33,14 +33,11 @@ export class MyApp {
     //  aqui poner las paginas que quiero que se reflejen en mi menu 
 
     this.pages = [
-      { title: 'Login', component: LoginPage},
-      { title: 'Home', component: HomePage },
-      { title: 'Lenguages', component: LenguagesPage},
-      { title: 'Level', component: LevelPage},
-      { title: 'Course', component: CoursePage},
-      { title: 'Progress', component: ProgressPage},
-      { title: 'Premium', component: PremiumPage},
-      { title: 'List', component: ListPage},
+      { title: 'Home', component: HomePage, icon: 'home' },
+      { title: 'Lenguages', component: LenguagesPage, icon: 'jet'},
+      { title: 'Progress', component: ProgressPage, icon: 'podium'},
+      { title: 'Premium', component: PremiumPage, icon: 'ribbon'},
+  
       
       
   

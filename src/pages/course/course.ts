@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PremiumPage } from '../premium/premium';
+import { LevelPage} from '../level/level';
 
 /**
  * Generated class for the CoursePage page.
@@ -22,4 +24,14 @@ export class CoursePage {
     console.log('ionViewDidLoad CoursePage');
   }
 
+  openPremiumPage(){
+
+    this.navCtrl.push(PremiumPage);
+  }
+  
+  goBackLevelPage(){
+    
+    this.navCtrl.setRoot(LevelPage);
+      
+  }
 }

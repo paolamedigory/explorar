@@ -9,24 +9,149 @@
 
 <ion-content padding class="background">
   
-    <ion-slides pager>
+  <ion-card>
 
-    <ion-slide style="background-color: rgb(218, 246, 255)">
-        <ion-img width="400" height="300" src="../assets/imgs/Elementary.png"></ion-img>
-      <h2>Elementary</h2>
-    </ion-slide>
-  
-    <ion-slide style="background-color: rgb(203, 243, 255)">
-        <ion-img width="400" height="300" src="../assets/imgs/inter.png"></ion-img>
-
-      <h2>Intermidiate</h2>
-    </ion-slide>
-  
-    <ion-slide style="background-color: rgb(215, 242, 255)">
-        <ion-img width="400" height="300" src="../assets/imgs/advance.png"></ion-img>
-      <h2>Advanced</h2>
-    </ion-slide>
-  
-  </ion-slides>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/girl.JPG">
+        </ion-avatar>
+        <h2>Paola Orozco</h2>
+        <p>March 22, 1954</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/cardhands.jpg">
+    
+      <ion-card-content>
+        <p>Quiero aprender Frances para trabajar en París. </p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>40 Likes</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="text"></ion-icon>
+            <div>10 Comments</div>
+          </button>
+        </ion-col>
+        <ion-col center text-center>
+          <ion-note>
+            4h ago
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
  
+    
+  <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/max.png">
+        </ion-avatar>
+        <h2>Max Opbacher</h2>
+        <p>June 6, 1993</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/comu.jpg">
+    
+      <ion-card-content>
+        <p>I want to learn Spanish because i want to travel around Mexico</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>50 Likes</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="text"></ion-icon>
+            <div>7 Comments</div>
+          </button>
+        </ion-col>
+        <ion-col center text-center>
+          <ion-note>
+            11h ago
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+
+
+      
+  <ion-card>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="../assets/imgs/girl2.jpg">
+        </ion-avatar>
+        <h2>Jane Huber</h2>
+        <p>May, 1990</p>
+      </ion-item>
+    
+      <img src="../assets/imgs/meeting.png">
+    
+      <ion-card-content>
+        <p>Je veux apprendre l'allemand pour vivre en Allemagne</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>12 Likes</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="text"></ion-icon>
+            <div>4 Comments</div>
+          </button>
+        </ion-col>
+        <ion-col center text-center>
+          <ion-note>
+            11h ago
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+    <div class="progressbutton" (click)="goProgressPage()">
+        <button ion-button full color="danger"> Progress </button>
+      </div>
+
+   <ion-slides pager>
+
+        <ion-slide style="background-color: rgb(218, 246, 255)">
+            <ion-img width="400" height="300" src="../assets/imgs/Elementary.png"></ion-img>
+          <h2>Elementary</h2>
+        </ion-slide>
+      
+        <ion-slide style="background-color: rgb(203, 243, 255)">
+            <ion-img width="400" height="300" src="../assets/imgs/inter.png"></ion-img>
+    
+          <h2>Intermediate</h2>
+        </ion-slide>
+      
+        <ion-slide style="background-color: rgb(215, 242, 255)">
+            <ion-img width="400" height="300" src="../assets/imgs/advance.png"></ion-img>
+          <h2>Advanced</h2>
+        </ion-slide>
+      
+      </ion-slides>
+
+      <div class="startbutton" (click)="goLenguagesPage()">
+          <button ion-button full color="danger"> Start </button>
+        </div>
+      
+
 </ion-content>

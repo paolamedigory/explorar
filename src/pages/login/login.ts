@@ -25,7 +25,7 @@ export class LoginPage {
 
   openHomePage(){
 
-  this.navCtrl.push(HomePage);
+  this.navCtrl.setRoot(HomePage);
 
   }
 

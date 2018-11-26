@@ -25,7 +25,6 @@ export class LevelPage {
 
   openCoursePage(){
     this.navCtrl.push(CoursePage);
-
   }
 
   
