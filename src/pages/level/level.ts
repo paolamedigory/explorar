@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { CoursePage } from'../course/course';
 
 /**
  * Generated class for the LevelPage page.
@@ -22,4 +23,10 @@ export class LevelPage {
     console.log('ionViewDidLoad LevelPage');
   }
 
+  openCoursePage(){
+    this.navCtrl.push(CoursePage);
+
+  }
+
+  
 }
